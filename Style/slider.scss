@@ -1,0 +1,68 @@
+$fontfam: 'Source Sans Pro', sans-serif;
+$col1: rgb(226,88,87);
+$col2: rgb(226,88,87);
+
+body {
+	margin: 0;
+}
+.royalSlider {
+	width: 100%;
+	height: 100%;
+}	
+
+
+
+h1 {
+	font-family: $fontfam;
+	font-weight: 300;
+	font-size: 2em;
+	padding: .75em;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.p1 > h1 {
+	background: $col1;	
+}
+.p2 > h1 {
+	background: $col2;	
+}
+
+figure {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end; 
+  margin: 0;
+}
+
+figure img {
+	 align-self: flex-end;
+	 flex-basis: width auto; /* default auto */
+	width: 100%;	
+}	 
+
+.text {
+	position: absolute;
+	bottom: 0;
+	background: white;
+	margin: 0;
+	padding: 0;
+	 align-self: flex-end;
+	 flex-basis: width auto; /* default auto */
+}
+.caption {
+	 font-family: $fontfam;
+	 font-weight: 300;
+	 font-size: 1.5em;
+	 padding: 0.5em 0.5em 0 0.5em;
+}
+
+.footnote {
+	 font-family: $fontfam;
+	 font-weight: 300;
+	 font-size: 0.8em;
+	 padding: 1em;
+}
+
